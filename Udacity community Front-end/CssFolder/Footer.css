@@ -1,0 +1,15 @@
+.footer{
+    text-align: center;
+    background-color: #cac9c9;
+   font-size: medium;
+    }
+
+    .footer a {
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+        color: blue;
+    }

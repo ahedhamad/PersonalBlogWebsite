@@ -1,0 +1,54 @@
+@media (max-width: 500px) {
+    body {
+        font-size: small;
+    }
+    
+    .topnav {
+        grid-template-columns: auto;
+        row-gap: 10px;
+        text-align: flex-end;
+        background-size: contain;
+    }
+    
+    .card {
+        grid-template-columns: auto;
+    }
+    
+    .Avatar {
+        grid-column-start: 1;
+        width: 60%;
+    }
+    
+    .blockquote {
+        font-size: small;
+    }
+    
+    #learnMoreButton {
+        font-size: smaller;
+        padding: 5px;
+    }
+    
+    .footer {
+        font-size: small;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .Card1, .Card2, .Card3 {
+        padding: 10px;
+    }
+
+    .List {
+        font-size: small;
+    }
+
+    #caption {
+        font-size: x-small;
+    }
+
+}

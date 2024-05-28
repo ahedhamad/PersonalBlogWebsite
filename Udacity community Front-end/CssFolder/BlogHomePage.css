@@ -1,0 +1,47 @@
+
+.image{
+    opacity: 0.4;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50%;
+width: 100%;}
+
+.card{
+    display: grid;
+   grid-template-columns: repeat(3,auto);
+   grid-template-rows: repeat(4,auto);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 black;
+padding: 5px;
+background-color:#5b166e;
+color: white;
+}
+.Avatar{
+   grid-column-start: 2;
+   grid-column-start: 4;
+   height: 100%;
+   width: 60%;
+   grid-row-start: 1;
+   grid-row-end: 4;
+   border-radius: 50%;
+}
+.h1,h3,p,blockquote{
+    grid-column-start: 1; 
+    grid-column-end: 2;
+    align-content:space-evenly;
+
+}
+.blockquote{
+font-size: medium;
+font-style: italic;
+}
+#learnMoreButton{
+    font-size: smaller;
+    color: #5b166e;
+   border-radius: 10px;
+   border: 2px solid white;
+}
+#learnMoreButton:hover{
+    text-decoration: underline;
+    color: blue;
+}

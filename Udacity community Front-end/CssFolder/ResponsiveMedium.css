@@ -1,0 +1,56 @@
+@media (min-width: 500px) and (max-width: 1000px) {
+    body {
+        font-size: 1.2em;
+    }
+    
+    .topnav {
+        grid-template-columns: repeat(3,auto);
+        column-gap: 10px;
+      
+    }
+    
+    .card {
+        grid-template-columns: repeat(2,auto) ;
+        grid-template-rows: repeat(2,auto);
+    }
+    
+    .Avatar {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 50%;
+    }
+    
+    .blockquote {
+        font-size: medium;
+    }
+    
+    #learnMoreButton {
+        font-size: small;
+        padding: 8px;
+    }
+    
+    .footer {
+        font-size: medium;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+    }
+  
+
+    .content {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .Card1, .Card2, .Card3 {
+        padding: 15px;
+    }
+
+    .List {
+        font-size: medium;
+    }
+
+    #caption {
+        font-size: small;
+    }
+}
